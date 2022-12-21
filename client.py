@@ -2,12 +2,14 @@ import dns.message
 import dns.name
 import dns.query
 import socket
+import argparse
 
-
-server = ('127.0.0.1', 53)
+ip = "127.0.0.1"
+server = (ip, 53)
 #Dominio al que vamos a enviar las peticiones
 dominio = "secreto.com"
 buffer = 4096
+file = "archivo.txt"
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
@@ -28,7 +30,7 @@ def reorganize_text(text):
 		print("OFASO")
 
 
-def main():
+def dns_requests():
 
 	print("  -|-  INICIANDO...  -|-  ")
 
@@ -60,6 +62,22 @@ def main():
 		txt_response = response.decode("utf-8", errors="replace")
 
 		print(txt_response)
+
+
+def main():
+
+	parser = argparse.ArgumentParser()
+
+	parser.add_argument('-s', '--ip', type=str, nargs=1, help='IP you want to connect to')
+	parser.add_argument('-f', '--file', type=str, nargs=1, help='File containing the message')
+
+	args = parser.parse_args()
+
+	if args.ip:
+		ip = str(args.ip)
+	if args.file:
+		file = str(args.file)
+	dns_requests()
 
 
 if __name__ == '__main__':
