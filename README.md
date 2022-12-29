@@ -10,7 +10,7 @@
 python3 server.py
 ```
 
-<img src="/media/Client.png" width="500" title="use example">
+<img src="/media/Client.png" width="300" title="use example">
 
 * **Client**
 
@@ -18,7 +18,7 @@ python3 server.py
 python3 client.py -s Server_IP -f File
 ```
 
-<img src="./media/Server.png" width="500" title="use example">
+<img src="./media/Server.png" width="300" title="use example">
 
 ### 🚩 Flags del Programa
 
@@ -38,3 +38,9 @@ python3 client.py -s Server_IP -f File
 -t / --time: [Opcional] Tiempo que las solicitudes esperan una respuesta del servidor. Predet = 5
 -d / --domain: [Opcional] Dominio que desea utilizar. Predet = secreto.com.
 ```
+
+### :movie_camera: Demostración de Uso
+
+<video width="320" height="240" controls>
+  <source src="./media/Video.mkv" type="video/mp4">
+</video>
