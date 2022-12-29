@@ -41,4 +41,5 @@ python3 client.py -s Server_IP -f File
 
 ### :movie_camera: Demostración de Uso
 
-![Video](media/Video.mov)
+https://user-images.githubusercontent.com/35707527/210021277-b58cc8c7-3d88-4109-b3cd-e2209d4a93b7.mp4
+
