@@ -42,5 +42,5 @@ python3 client.py -s Server_IP -f File
 ### :movie_camera: Demostración de Uso
 
 <video width="320" height="240" controls>
-  <source src="./media/Video.mp4" type="video/mp4">
+  <source src="./media/Video.mov" type="video/mp4">
 </video>
