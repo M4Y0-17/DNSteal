@@ -41,4 +41,4 @@ python3 client.py -s Server_IP -f File
 
 ### :movie_camera: Demostración de Uso
 
-![](./media/Video.mov)
+![Video](media/Video.mov)
