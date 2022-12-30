@@ -2,7 +2,7 @@
 
 ## Uso
 
-#### 💻 Ejecutar el programa
+#### :computer: Ejecutar el programa
 
 * **Server**
 
@@ -20,7 +20,7 @@ python3 DNS_Client.py -s Server_IP -f File
 
 <img src="./media/Client.png" width="300" title="use example">
 
-### 🚩 Flags del Programa
+### :triangular_flag_on_post: Flags del Programa
 
 * **Server**
 
