@@ -2,7 +2,7 @@
 
 ## Uso
 
-#### 💻 Ejecutar el programa:
+#### 💻 Ejecutar el programa
 
 * **Server**
 
@@ -41,5 +41,4 @@ python3 DNS_Client.py -s Server_IP -f File
 
 ### :movie_camera: Demostración de Uso
 
-https://user-images.githubusercontent.com/35707527/210021277-b58cc8c7-3d88-4109-b3cd-e2209d4a93b7.mp4
-
+https://user-images.githubusercontent.com/35707527/210063728-522d5e92-1198-4cfb-9cf6-34a1e27cd88e.mp4
