@@ -7,7 +7,7 @@
 * **Server**
 
 ```bash
-python3 server.py
+python3 DNS_Server.py
 ```
 
 <img src="/media/Client.png" width="300" title="use example">
@@ -15,7 +15,7 @@ python3 server.py
 * **Client**
 
 ```bash
-python3 client.py -s Server_IP -f File
+python3 DNS_Client.py -s Server_IP -f File
 ```
 
 <img src="./media/Server.png" width="300" title="use example">
