@@ -45,10 +45,4 @@ https://user-images.githubusercontent.com/35707527/210063728-522d5e92-1198-4cfb-
 
 ### :mailbox_with_mail: Paquetes de Wireshark
 
-Se puede ver en el paquete el subdominio, el dominio y el tipo de registro DNS, el A
-
 <img src="./media/Packet_Wireshark.png" width="1000" title="use example">
-
-Y cuando inspeccionamos mas de cerca los paquetes podemos ver el puerto que hemos configurado para la peticion y la IP del servidor que hemos determinado con el argumento -s
-
-<img src="./media/Packet.png" width="1000" title="use example">
